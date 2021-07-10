@@ -8,6 +8,13 @@ quantosSaoIguais xs
 main::IO()
 main = do
  print (quantosSaoIguais[3,2,1])
+
+
+
+
+
+
+
 2) Defina a função minEmax que retorna uma tupla com o maior e
 menor de três números: minEmax :: Int -> Int -> Int -> (Int, Int)
 minEmax :: Int -> Int -> Int -> (Int,Int)
@@ -15,6 +22,13 @@ minEmax a b c = ((min a (min b c)), (max a(max b c)))
 main::IO()
 main = do
  print(minEmax 6 5 9)
+
+
+
+
+
+
+
 Questão 3)Defina uma função max3 que recebe três valores inteiros
 e resulta no maior deles. Use expressões condicionais aninhadas.
 Faça uma anotação de tipo para a função em seu código.
@@ -27,6 +41,17 @@ max3 a b c
 main::IO()
 main = do
  print(max3 6 8 4)
+
+
+
+
+
+
+
+
+
+
+
 Questão 4) Defina a função ordenaTupla :: (Int, Int, Int) -> (Int, Int, Int)
 que coloca os elementos da tupla em ordem crescente.
 ordenaTupla :: (Int, Int, Int) -> (Int, Int, Int)
@@ -40,6 +65,18 @@ ordenaTupla (a, b, c)
 main::IO()
 main = do
  print(ordenaTupla (0,0,7))
+
+
+
+
+
+
+
+
+
+
+
+
 Questão 5)
 Escreva uma função anônima que recebe uma tripla formada pelo
 nome, peso e altura de uma pessoa e resulta no seu índice de massa
